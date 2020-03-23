@@ -4,6 +4,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-0cbc6aae997c6538a"
+  ami           = "ami-0b21b3ea2cb8660a5"
   instance_type = "t2.micro"
 }
